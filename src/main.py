@@ -5,6 +5,7 @@ from os.path import abspath, exists
 from pathlib import Path
 
 from PIL.JpegImagePlugin import JpegImageFile
+
 from pipelines.models import TextToImageRequest
 
 from pipeline import load_pipeline, infer
